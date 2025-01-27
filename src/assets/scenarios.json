@@ -1,0 +1,24 @@
+{
+    "scenarios": [
+      {
+        "symptom": "headache",
+        "response": "You have a brain tumor. LOL :3"
+      },
+      {
+        "symptom": "stomachache",
+        "response": "You have stage 4 stomach cancer. RIP."
+      },
+      {
+        "symptom": "cough",
+        "response": "You have tuberculosis. Good luck!"
+      },
+      {
+        "symptom": "back pain",
+        "response": "You have a spinal fracture. Ouch!"
+      },
+      {
+        "symptom": "sore throat",
+        "response": "You have throat cancer. Bye bye!"
+      }
+    ]
+  }
