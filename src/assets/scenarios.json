@@ -1,24 +1,56 @@
 {
-    "scenarios": [
-      {
-        "symptom": "headache",
-        "response": "You have a brain tumor. LOL :3"
-      },
-      {
-        "symptom": "stomachache",
-        "response": "You have stage 4 stomach cancer. RIP."
-      },
-      {
-        "symptom": "cough",
-        "response": "You have tuberculosis. Good luck!"
-      },
-      {
-        "symptom": "back pain",
-        "response": "You have a spinal fracture. Ouch!"
-      },
-      {
-        "symptom": "sore throat",
-        "response": "You have throat cancer. Bye bye!"
-      }
-    ]
-  }
+  "scenarios": [
+    {
+      "keywords": ["headache", "head ache", "head pain", "migraine"],
+      "response": "You have a brain tumor LoL :3"
+    },
+    {
+      "keywords": ["stomachache", "stomach pain", "belly ache", "indigestion"],
+      "response": "Clearly stage 4 stomach cancer. Start writing your will."
+    },
+    {
+      "keywords": ["cough", "coughing", "dry cough", "hack"],
+      "response": "Tuberculosis + Black Lung combo. Mining career over!"
+    },
+    {
+      "keywords": ["fever", "high temperature", "burning up"],
+      "response": "Ebola-Zombie hybrid virus. Containment protocol initiated!"
+    },
+    {
+      "keywords": ["back pain", "spine hurt", "lumbar pain"],
+      "response": "Spinal disintegration detected. Become a jellyfish?"
+    },
+    {
+      "keywords": ["sore throat", "throat pain", "swallowing hurt"],
+      "response": "Throat melting like Nazis in Raiders. Bye vocal cords!"
+    },
+    {
+      "keywords": ["runny nose", "nasal drip", "sniffles"],
+      "response": "Brain fluid leak detected. You're basically a faucet now."
+    },
+    {
+      "keywords": ["dizziness", "vertigo", "lightheaded"],
+      "response": "Inner ear rebellion! Say goodbye to gravity."
+    },
+    {
+      "keywords": ["fatigue", "tired", "exhausted"],
+      "response": "Chronic laziness pandemic."
+    },
+    {
+      "keywords": ["insomnia", "can't sleep", "sleepless"],
+      "response": "Body rejecting sleep. Scroll some videos and fry that brain <3"
+    },
+    {
+      "keywords": ["rash", "skin irritation", "hives"],
+      "response": "Zombie transformation stage 1. Welcome to the horde!"
+    },
+    {
+      "keywords": ["nausea", "queasy", "want to vomit"],
+      "response": "Stomach.exe has stopped working. Total system shutdown!"
+    },
+    {
+      "keywords": ["joint pain", "achy bones", "creaky joints"],
+      "response": "Rapid-onset osteoporosis. You're basically a glowstick now."
+    }
+  ]
+}

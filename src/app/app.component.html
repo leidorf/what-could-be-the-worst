@@ -1,8 +1,12 @@
 <div style="display:flex; justify-items:center;">
   <div class="container">
     <h1>What Could Be the Worst?</h1>
-    <input [(ngModel)]="symptom" placeholder="Enter your symptom" />
+    <input [(ngModel)]="symptom" placeholder="Enter your symptom" (keyup.enter)="getWorstCase()" />
     <button (click)="getWorstCase()">Tell Me the Worst</button>
     <h2>{{ response }}</h2>
   </div>
 </div>
+<footer>
+  <p>WCBtW by <a href="http://github.com/leidorf" target="_blank">leidorf</a> with 💜</p>
+  <a href="http://github.com/leidorf/what-could-be-the-worst" target="_blank">github</a>
+</footer>

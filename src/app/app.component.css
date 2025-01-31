@@ -3,7 +3,11 @@
   flex-direction: column;
   text-align: center;
   align-items: center;
-  border: solid black 1px;
+  border: solid #e4e4e4 1px;
   border-radius: 0.25rem;
+  background-color: rgba(255, 255, 255, 0.025);
+  backdrop-filter: blur(3px);
+  box-shadow: 0 0.125rem 0.5rem #e4e4e4;
   width: 48rem;
+  color: #e4e4e4;
 }

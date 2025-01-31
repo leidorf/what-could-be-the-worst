@@ -29,21 +29,22 @@ export class AppComponent implements OnInit {
     );
   }
   getWorstCase() {
-    const symptomLower = this.symptom.trim().toLowerCase();
-
-    const foundScenario = this.scenarios.find(
-      (scenario) => scenario.symptom.toLowerCase() === symptomLower
-    );
-
     if (!this.symptom.trim()) {
-      this.response = 'Please enter your symptom';
+      this.response = 'Please enter your symptom.';
       return;
     }
 
-    this.response = foundScenario
-      ? foundScenario.response
-      : "You're probably fine. Stop overthinking!";
-  }
+    const userInput = this.symptom.toLowerCase();
+    let foundResponse = "You're probably fine. Stop overthinking!";
 
-  title = 'What Could Be the Worst?';
+    for (const scenario of this.scenarios) {
+      for (const keyword of scenario.keywords) {
+        if (userInput.includes(keyword.toLowerCase())) {
+          foundResponse = scenario.response;
+          break;
+        }
+      }
+    }
+    this.response = foundResponse;
+  }
 }
